@@ -6,7 +6,7 @@ class Point:
     def __add__(self,outro):
         p1 = self.x + outro.x
         p2 = self.y + outro.y
-        return p1,p2
+        return self.__str__(p1,p2)
 
-    def __str__():
-        pass
+    def __str__(self,p1,p2):
+        return "Pn("+str(p1)+","+str(p2)+")"
