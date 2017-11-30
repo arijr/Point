@@ -1,0 +1,12 @@
+[
+    {
+        "nome": "Antonio Nunes",
+        "email": "mail@email.com",
+        "nascimento": "2000-11-22"
+    },
+    {
+        "nome": "Pedro",
+        "email": "pedro@mail.com",
+        "nascimento": "12/12/2000"
+    }
+]

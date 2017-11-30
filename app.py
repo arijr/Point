@@ -1,3 +1,5 @@
+#coding: utf8
+
 from model.point import Point
 
 
