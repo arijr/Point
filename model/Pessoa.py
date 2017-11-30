@@ -25,10 +25,10 @@ class Pessoa(PessoaInterface):
             and (self.email == other.email) \
             and (self.nascimento == other.nascimento)
 
-p = Pessoa('Ari', 'ari@teste', date(1986,12,22))
-p2 = Pessoa('Jose','jose@mail',date.today())
+# p = Pessoa('Ari', 'ari@teste', date(1986,12,22))
+# p2 = Pessoa('Jose','jose@mail',date.today())
 
-print(p)
-print(p2)
+# print(p)
+# print(p2)
 
-print(p==p2)
+# print(p==p2)
