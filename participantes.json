@@ -1,17 +1,3 @@
 [
-    {
-        "nome": "Arivanilton",
-        "nascimento": "2000-12-12",
-        "email": "mail@mail.com"
-    },
-    {
-        "nome": "Teste",
-        "nascimento": "2000-11-11",
-        "email": "teste@testemail.com"
-    },
-    {
-        "nome": "Novo Participante",
-        "email": "participante@novo.com.br",
-        "nascimento": "2000-12-21"
-    }
+
 ]

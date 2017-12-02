@@ -16,7 +16,7 @@ class Pessoa(PessoaInterface):
         return p
 
     def __str__(self):
-        pessoa = 'Nome: %s \nEmail: %s \nNascimento: %s' %(self.nome,self.email,self.nascimento)
+        pessoa = 'Nome: %s \nEmail: %s \nNascimento: %s\n' %(self.nome,self.email,self.nascimento)
 
         return pessoa
 
@@ -25,10 +25,10 @@ class Pessoa(PessoaInterface):
             and (self.email == other.email) \
             and (self.nascimento == other.nascimento)
 
-p = Pessoa('Ari', 'ari@teste', date(1986,12,22))
-p2 = Pessoa('Jose','jose@mail',date.today())
-
-print(p)
-print(p2)
-
-print(p==p2)
+# p = Pessoa('Ari', 'ari@teste', date(1986,12,22))
+# p2 = Pessoa('Jose','jose@mail',date.today())
+#
+# print(p)
+# print(p2)
+#
+# print(p==p2)
