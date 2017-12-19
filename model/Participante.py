@@ -53,14 +53,3 @@ class Participante(Pessoa):
               "1 - Listar participantes \n"
               "2 - Adicionar participante \n\n"
               "5 - Sair \n")
-
-
-
-
-    # def __init__(self,nome,nascimento,email):
-    #     self.nome = nome
-    #     self.nascimento = nascimento
-    #     self.email = email
-
-    # def __str__(self):
-    #     return "\n\nNome: %s\ne-mail:%s\nnascimento:%s\n"%(self.nome,self.email,self.nascimento)

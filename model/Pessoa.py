@@ -16,7 +16,7 @@ class Pessoa(PessoaInterface):
         return p
 
     def __str__(self):
-        pessoa = 'Nome: %s \nEmail: %s \nNascimento: %s\n' %(self.nome,self.email,self.nascimento)
+        pessoa = '\nNome: %s \nEmail: %s \nNascimento: %s\n' %(self.nome,self.email,self.nascimento)
 
         return pessoa
 
